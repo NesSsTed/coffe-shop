@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- css code -->
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/responsive.css" />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- font-roboto -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Babylonica&family=IBM+Plex+Serif:wght@100&family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Coffee shop</title>
+  </head>
+  <body>
+    <!-- header -->
+    <div class="container-header">
+      <!-- logo -->
+      <a href="">
+        <img class="logo" src="/image/logo-tamam.png" alt="logo" />
+      </a>
+      <!-- navbar -->
+      <nav class="menu-list">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#product">Product</a>
+        <a href="#review">Review</a>
+        <a href="#contact">Contact</a>
+        <a href="#blogs">Blogs</a>
+      </nav>
+      <!-- icones -->
+      <div class="icones">
+        <i class="fa fa-search" id="search-script"></i>
+        <i class="fa fa-cart-arrow-down" id="shopping"></i>
+        <i class="fa fa-bars" id="menu-btn"></i>
+      </div>
+      <!-- inputes -->
+      <div class="inputs">
+        <input
+          type="search"
+          id="search-box"
+          placeholder="search here..."
+          class="search-box-style"
+        />
+        <label for="search-box" class="fa fa-search icon-search"></label>
+      </div>
+      <!-- cart-items -->
+      <div class="cart-items-container">
+        <div class="cart-items">
+          <img class="image-cart" src="/image/cart-image-01.png" alt="" />
+          <div class="content">
+            <h3>cart item 01</h3>
+            <div class="price">$15.99/-</div>
+          </div>
+          <i class="fas fa-times"></i>
+        </div>
+        <div class="cart-items">
+          <img class="image-cart" src="/image/cart-image-02.png" alt="" />
+          <div class="content">
+            <h3>cart item 02</h3>
+            <div class="price">$15.99/-</div>
+          </div>
+          <i class="fas fa-times"></i>
+        </div>
+        <div class="cart-items">
+          <img class="image-cart" src="/image/cart-image-03.png" alt="" />
+          <div class="content">
+            <h3>cart item 03</h3>
+            <div class="price">$15.99/-</div>
+          </div>
+          <i class="fas fa-times"></i>
+        </div>
+        <div class="cart-items">
+          <img class="image-cart" src="/image/cart-image-04.png" alt="" />
+          <div class="content">
+            <h3>cart item 04</h3>
+            <div class="price">$15.99/-</div>
+          </div>
+          <i class="fas fa-times"></i>
+        </div>
+        <button class="btn">Checkout Now</button>
+      </div>
+    </div>
+    <!-- Main-header -->
+    <div class="container-main" id="home">
+      <div class="container-main-header">
+        <h1 class="title-main-header">
+          FRESH COFFEE IN <br />
+          THE MORNING
+        </h1>
+        <p class="p-main-header">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio modi
+          <br />
+          dicta nulla laborum et voluptatum sit nihil itaque
+        </p>
+        <button class="btn-main-header btn">Get It Now</button>
+      </div>
+    </div>
+    <!-- about -->
+    <div class="about" id="about">
+      <h2 class="title-all"><span class="span-all">ABOUT </span>US</h2>
+      <div class="container-about">
+        <div class="left-about">
+          <img class="img-flouid" src="/image/about-image.png" alt="coffee" />
+        </div>
+        <div class="right-about">
+          <h3 class="title-about-right">what makes our coffee special?</h3>
+          <p class="p-about-right">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis nobis,
+            dolores, totam deleniti optio explicabo atque eligendi a facilis
+            harum voluptates est suscipit at unde beatae repellendus consectetur
+            consequatur delectus consequuntur numquam veniam. Vitae molestiae
+            <br />
+            <br />
+            possimus voluptas sint sequi eveniet error sit commodi aspernatur?
+            Vero harum dolore incidunt iure voluptates quos in velit optio
+            laborum quasi, saepe accusantium officiis ab hic ullam sit ipsum
+            quae assumenda repellat, modi tempora culpa.
+          </p>
+          <a href="#" class="btn btn-about-right"> learn more </a>
+        </div>
+      </div>
+    </div>
+    <!-- Our-Menu  -->
+    <div class="our-menu" id="menu">
+      <h2 class="title-all">OUR <span class="span-all">MENU</span></h2>
+      <div class="container-our-menu">
+        <div class="cart-our-menu col-xs-12 col-sm-6 col-lg-4">
+          <img
+            class="img-our-menu"
+            src="/image/image-Our-menu-1.png"
+            alt="coffee"
+          />
+          <h4 class="title-our-menu">Tasy And Healty</h4>
+          <div class="price">
+            <h4>$15.99</h4>
+            <p>$20.99</p>
+          </div>
+          <a href="#" class="btn">Add To Cart</a>
+        </div>
+        <div class="cart-our-menu col-xs-12 col-sm-6 col-lg-4">
+          <img
+            class="img-our-menu"
+            src="/image/image-Our-menu-2.png"
+            alt="coffee"
+          />
+          <h4 class="title-our-menu">Tasy And Healty</h4>
+          <div class="price">
+            <h4>$15.99</h4>
+            <p>$20.99</p>
+          </div>
+          <a href="#" class="btn">Add To Cart</a>
+        </div>
+        <div class="cart-our-menu col-xs-12 col-sm-6 col-lg-4">
+          <img
+            class="img-our-menu"
+            src="/image/image-Our-menu-3.png"
+            alt="coffee"
+          />
+          <h4 class="title-our-menu">Tasy And Healty</h4>
+          <div class="price">
+            <h4>$15.99</h4>
+            <p>$20.99</p>
+          </div>
+          <a href="#" class="btn">Add To Cart</a>
+        </div>
+        <div class="cart-our-menu col-xs-12 col-sm-6 col-lg-4">
+          <img
+            class="img-our-menu"
+            src="/image/image-Our-menu-4.png"
+            alt="coffee"
+          />
+          <h4 class="title-our-menu">Tasy And Healty</h4>
+          <div class="price">
+            <h4>$15.99</h4>
+            <p>$20.99</p>
+          </div>
+          <a href="#" class="btn">Add To Cart</a>
+        </div>
+        <div class="cart-our-menu col-xs-12 col-sm-6 col-lg-4">
+          <img
+            class="img-our-menu"
+            src="/image/image-Our-menu-5.png"
+            alt="coffee"
+          />
+          <h4 class="title-our-menu">Tasy And Healty</h4>
+          <div class="price">
+            <h4>$15.99</h4>
+            <p>$20.99</p>
+          </div>
+          <a href="#" class="btn">Add To Cart</a>
+        </div>
+        <div class="cart-our-menu col-xs-12 col-sm-6 col-lg-4">
+          <img
+            class="img-our-menu"
+            src="/image/image-Our-menu-6.png"
+            alt="coffee"
+          />
+          <h4 class="title-our-menu">Tasy And Healty</h4>
+          <div class="price">
+            <h4>$15.99</h4>
+            <p>$20.99</p>
+          </div>
+          <a href="#" class="btn">Add To Cart</a>
+        </div>
+      </div>
+    </div>
+    <!-- products section -->
+    <div class="products-section" id="product">
+      <h2 class="title-all"><span class="span-all">LATEST </span>PRODUCTS</h2>
+      <div class="container-cart-products">
+        <div class="cart-products">
+          <div class="icons-top-product">
+            <i class="fa fa-cart-arrow-down"></i>
+            <i class="fa fa-heart" aria-hidden="true"></i>
+            <i class="fa fa-eye" aria-hidden="true"></i>
+          </div>
+          <img src="/image/prodouct-image-01.jpg" alt="" />
+          <p class="p-product">Fresh Coffee</p>
+          <div class="icons-star">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star-half-alt" aria-hidden="true"></i>
+          </div>
+          <div class="price">
+            <h4>$15.99</h4>
+            <p>$20.99</p>
+          </div>
+        </div>
+
+        <div class="cart-products">
+          <div class="icons-top-product">
+            <i class="fa fa-cart-arrow-down"></i>
+            <i class="fa fa-heart" aria-hidden="true"></i>
+            <i class="fa fa-eye" aria-hidden="true"></i>
+          </div>
+          <img src="/image/prodouct-image-02.jpg.png" alt="" />
+          <p class="p-product">Fresh Coffee</p>
+          <div class="icons-star">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star-half-alt" aria-hidden="true"></i>
+          </div>
+          <div class="price">
+            <h4>$15.99</h4>
+            <p>$20.99</p>
+          </div>
+        </div>
+
+        <div class="cart-products">
+          <div class="icons-top-product">
+            <i class="fa fa-cart-arrow-down"></i>
+            <i class="fa fa-heart" aria-hidden="true"></i>
+            <i class="fa fa-eye" aria-hidden="true"></i>
+          </div>
+          <img src="/image/prodouct-image-03.jpg.png" alt="" />
+          <p class="p-product">Fresh Coffee</p>
+          <div class="icons-star">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star-half-alt" aria-hidden="true"></i>
+          </div>
+          <div class="price">
+            <h4>$15.99</h4>
+            <p>$20.99</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Customers Review -->
+    <div class="costomers-review" id="review">
+      <h2 class="title-all">
+        CUSTOMER'S <span class="span-all">REVIEW </span>
+      </h2>
+      <div class="box-review">
+        <div class="member-review">
+          <div class="quote-review">
+            <i class="fa fa-quote-left quote"></i>
+          </div>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio
+            aliquam quasi odit exercitationem nesciunt voluptate libero
+            doloremque alias inventore sint, earum ex dolor? Fugiat maxime
+            cumque dolores deserunt in id?
+          </p>
+
+          <img src="/image/image-review-01.png" />
+          <p>John Dep</p>
+          <div class="icons-star">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star-half-alt" aria-hidden="true"></i>
+          </div>
+        </div>
+        <div class="member-review">
+          <div class="quote-review">
+            <i class="fa fa-quote-left quote"></i>
+          </div>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio
+            aliquam quasi odit exercitationem nesciunt voluptate libero
+            doloremque alias inventore sint, earum ex dolor? Fugiat maxime
+            cumque dolores deserunt in id?
+          </p>
+
+          <img src="/image/image-review-02.png" />
+          <p>John Dep</p>
+          <div class="icons-star">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star-half-alt" aria-hidden="true"></i>
+          </div>
+        </div>
+        <div class="member-review">
+          <div class="quote-review">
+            <i class="fa fa-quote-left quote"></i>
+          </div>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio
+            aliquam quasi odit exercitationem nesciunt voluptate libero
+            doloremque alias inventore sint, earum ex dolor? Fugiat maxime
+            cumque dolores deserunt in id?
+          </p>
+
+          <img src="/image/image-review-03.png" />
+          <p>John Dep</p>
+          <div class="icons-star">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star-half-alt" aria-hidden="true"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Contact Us -->
+    <div class="contact-us-section" id="contact">
+      <h2 class="title-all"><span class="span-all">CONTACT</span> US</h2>
+      <div class="container-contact-us">
+        <div class="left-contact-map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3312.735585658473!2d48.26711384189007!3d33.870704650909026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ef7ec2ec16b1df1%3A0x40b095d39e51face!2sIran!5e0!3m2!1sen!2sfr!4v1676574057341!5m2!1sen!2sfr"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+        <div class="right-contact">
+          <p class="title-right-contact">GET IN TOUCH</p>
+          <div class="input-div">
+            <label
+              for="name-contact"
+              class="fa fa-user"
+              aria-hidden="true"
+            ></label>
+            <input type="text" placeholder="name" id="name-contact" />
+          </div>
+          <div class="input-div">
+            <label
+              for="email-contact"
+              class="fa fa-envelope"
+              aria-hidden="true"
+            ></label>
+            <input type="email" placeholder="email" id="email-contact" />
+          </div>
+          <div class="input-div">
+            <label
+              for="phone-contact"
+              class="fa fa-phone"
+              aria-hidden="true"
+            ></label>
+            <input type="number" placeholder="phone" id="phone-contact" />
+          </div>
+          <a href="#" class="btn">Contact Now</a>
+        </div>
+      </div>
+    </div>
+    <!-- Our Blogs -->
+    <div class="our-blogs" id="blogs">
+      <h2 class="title-all">OUR <span class="span-all">BLOGS</span></h2>
+      <div class="container-cart-blogs">
+        <div class="cart-blogs">
+          <div class="img-blogs">
+            <img src="/image/image-blogs-01.png.jpg" alt="image-blogs" />
+          </div>
+          <a href="#" class="a1-blogs">Tasty And Refreshing Coffee</a>
+          <p class="p-blogs-01">By Admin / 1st May,2021</p>
+          <p class="p-blogs-02">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam,
+            architecto.
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+        <div class="cart-blogs">
+          <div class="img-blogs">
+            <img src="/image/image-blogs-02.png" alt="image-blogs" />
+          </div>
+          <a href="#" class="a1-blogs">Tasty And Refreshing Coffee</a>
+          <p class="p-blogs-01">By Admin / 1st May,2021</p>
+          <p class="p-blogs-02">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam,
+            architecto.
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+        <div class="cart-blogs">
+          <div class="img-blogs">
+            <img src="/image/image-blogs-03.png" alt="image-blogs" />
+          </div>
+          <a href="#" class="a1-blogs">Tasty And Refreshing Coffee</a>
+          <p class="p-blogs-01">By Admin / 1st May,2021</p>
+          <p class="p-blogs-02">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam,
+            architecto.
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+      </div>
+    </div>
+    <!-- footer section -->
+    <footer class="footer-section">
+      <div class="footer-icon">
+        <div class="div-icons-hover">
+          <i class="fab fa-facebook-f"></i>
+        </div>
+        <div class="div-icons-hover">
+          <i class="fab fa-linkedin-in"></i>
+        </div>
+        <div class="div-icons-hover">
+          <i class="fab fa-instagram"></i>
+        </div>
+        <div class="div-icons-hover">
+          <i class="fab fa-telegram-plane"></i>
+        </div>
+        <div class="div-icons-hover">
+          <i class="fab fa-whatsapp"></i>
+        </div>
+      </div>
+      <div class="footer-navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#product">Product</a>
+        <a href="#review">Review</a>
+        <a href="#contact">Contact</a>
+        <a href="#blogs">Blogs</a>
+      </div>
+      <p class="p-footer">
+        Created By <span class="footer-span">Nested Loops</span> All Rights
+        Reserved
+      </p>
+    </footer>
+    <script src="/script/script.js"></script>
+  </body>
+</html>
